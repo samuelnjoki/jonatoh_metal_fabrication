@@ -144,7 +144,7 @@
         body.append(cat, title, link); card.append(img, body); gallery.appendChild(card);
       });
       if (loadMore) {
-        loadMore.hidden = visible.length <= 6;
+        loadMore.hidden = visible.length <= 9;
         loadMore.textContent = showAll ? "Show Fewer Projects ↑" : `View More Projects (${visible.length - 6}) ↓`;
       }
     };
