@@ -4,7 +4,7 @@
   const waUrl = (message) => `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   document.querySelectorAll("[data-whatsapp-link]").forEach(link => {
-    link.href = waUrl("Hello ForgeCraft Metalworks, I would like to enquire about a metal fabrication project.");
+    link.href = waUrl("Hello Jonatoh Metal Fabricators, I would like to enquire about a metal fabrication project.");
     link.addEventListener("click", e => {
       if (!whatsappNumber || whatsappNumber.includes("REPLACE")) {
         e.preventDefault();
