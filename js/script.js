@@ -37,7 +37,7 @@
     const status = document.getElementById("form-status");
     const values = () => Object.fromEntries(new FormData(form).entries());
     const quoteMessage = d => [
-      "Hello ForgeCraft Metalworks, I would like to request a quotation.",
+      "Hello Jonatoh Metal Fabricators, I would like to request a quotation.",
       "", `Name: ${d.name}`, `Phone: ${d.phone}`, `Customer email: ${d.customerEmail || "Not provided"}`,
       `Location: ${d.location || "Not provided"}`, `Service: ${d.service}`,
       `Quantity: ${d.quantity || "Not provided"}`, `Dimensions: ${d.dimensions || "Not provided"}`,
