@@ -7,7 +7,7 @@
 
 /* Jonatoh Fabricators brand identity: black, metallic silver and gold */
 .brand-logo{width:58px;height:58px;object-fit:contain;border-radius:50%;background:#050505;flex-shrink:0}
-.brand-wordmark{display:block;color:#c9cdd1;font-family:"Barlow Condensed",sans-serif;font-weight:800;letter-spacing:1.3px;font-size:18px}
+.brand-wordmark{display:block;color:#0a0a0a;font-family:"Barlow Condensed",sans-serif;font-weight:800;letter-spacing:1.3px;font-size:18px}
 .brand-wordmark small{color:#e7ae25;letter-spacing:2.5px}
 .brand{gap:9px}
 .hero h1 em,.page-hero h1 em,h2 em{color:#f4b323}
